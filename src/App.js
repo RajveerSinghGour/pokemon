@@ -3,6 +3,7 @@ import axios from 'axios';
 import SearchBar from './components/SearchBar';
 import Modal from './components/Modal';
 import './App.css';
+import './components/Responsive.css';
 
 function App() {
   const [pokemon, setPokemon] = useState([]);

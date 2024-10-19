@@ -13,8 +13,8 @@
 .search-input {
   flex: 1;
   border: none;
-  padding: 10px 15px; /* Padding for better touch target */
-  font-size: 16px;
+  padding: 0.5rem 0.75rem; /* Padding for better touch target */
+  font-size: 1.0rem;
   border-radius: 25px 0 0 25px; /* Rounded corners */
   outline: none; /* Remove outline */
   transition: border-color 0.3s;
@@ -36,4 +36,22 @@
 
 .search-button:hover {
   background-color: #45a049; /* Darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+
+  .reset-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar input {
+    width: 150px;
+  }
 }

@@ -1,0 +1,36 @@
+/* Responsive design */
+@media (max-width: 768px) {
+  .pokemon-list {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .pokemon-card {
+    width: 120px;
+  }
+
+  .search-bar input {
+    width: 200px;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pokemon-list {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .pokemon-card {
+    width: 100px;
+  }
+
+  .search-bar input {
+    width: 150px;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+}

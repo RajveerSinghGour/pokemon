@@ -1,6 +1,7 @@
 // components/SearchBar.js
 import React from 'react';
 import './SearchBar.css';
+import './Responsive.css';
 
 const SearchBar = ({ onSearch, searchQuery }) => {
   return (

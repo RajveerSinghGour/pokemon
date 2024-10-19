@@ -1,12 +1,13 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #f0f4f8;
 }
 
 .container {
   max-width: 900px;
-  width: 90%;
+  width: 85%;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
@@ -18,9 +19,10 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-size: 2.5rem;
   color: #4caf50;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .filters {
@@ -30,11 +32,11 @@ h1 {
 }
 
 .filters select {
-  margin: 10px 10px 0 10px;
-  padding: 10px;
+  margin: 0.5rem 0.2rem 0.5rem 0.2rem;
+  padding: 0.5rem;
   border-radius: 5px;
   border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 0.7rem;
   background-color: #f9f9f9;
   transition: border-color 0.3s ease;
 }
@@ -48,12 +50,12 @@ h1 {
   background-color: #4caf50;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 0.5rem 1.0rem;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 0.8rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin: 0 0 20px 0;
+  margin: 0 0 1.0rem 0;
 }
 
 .button:hover {
@@ -75,6 +77,7 @@ h1 {
   padding: 0; /* Remove default padding */
   margin: 0;  /* Remove default margin */
   list-style-type: none; /* Remove points before cards */
+  justify-items: center;
 }
 
 .pokemon-card {
@@ -91,8 +94,9 @@ h1 {
 }
 
 .pokemon-card img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  
 }
 
 .pokemon-name {
@@ -143,4 +147,20 @@ h1 {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
