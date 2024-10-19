@@ -1,5 +1,5 @@
 import React from 'react';
-import './Modal.css'; // Import your CSS for modal
+import './Modal.css';
 import './Responsive.css';
 
 const Modal = ({ isOpen, onClose, pokemon }) => {
