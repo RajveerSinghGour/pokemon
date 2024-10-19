@@ -74,9 +74,9 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
   width: 100%;
-  padding: 0; /* Remove default padding */
-  margin: 0;  /* Remove default margin */
-  list-style-type: none; /* Remove points before cards */
+  padding: 0; 
+  margin: 0;  
+  list-style-type: none; 
   justify-items: center;
 }
 
@@ -128,7 +128,7 @@ h1 {
 }
 
 .pagination button:disabled {
-  background-color: #ccc; /* Greyed out when disabled */
+  background-color: #ccc; 
 }
 
 .pagination button:hover:not(:disabled) {
@@ -154,7 +154,6 @@ h1 {
   padding: 2rem;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
   .App {
     padding: 1rem;
